@@ -65,7 +65,7 @@ VisualBERT也设置了与BERT很相似的预训练（Task-Agnostic Pre-Training�
 
 去COCO官网搜了一下，具体的数据是这样的
 
-![capture_20240713050953580](https://le-petit-prince.oss-cn-beijing.aliyuncs.com/img/202407151924266.png)
+![image-20240715205559415](https://le-petit-prince.oss-cn-beijing.aliyuncs.com/img/202407152110960.png)
 
 一个图片会有五句不同的描述，但其意思都是相近的。我推测使用这种预训练方法是为了预训练的数据与微调的数据相接近（针对于VQA这种生成caption的任务，需要有错误的caption来学习）
 
